@@ -35,3 +35,4 @@ function smolpp(width, height, color)
 	else if (color == 'rgb(255, 0, 0)')
 		element.style.backgroundColor = 'blue';
 }
+//new
