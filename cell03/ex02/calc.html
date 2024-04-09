@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+		<script src="calc.js"></script>
+		<link rel="stylesheet" type="text/css" href="calc.css">
+	</head>
+	<body>
+		<input type="text" id="first">
+		<select id="operator">
+			<option value="+">+</option>
+			<option value="-">-</option>
+			<option value="*">*</option>
+			<option value="/">/</option>
+			<option value="%">%</option>
+		</select>
+		<input type="text" id="second">
+		<button onclick="calculate(document.getElementById('first').value,document.getElementById('operator').value, document.getElementById('second').value)">Try Me!</button>
+	</body>
+</html>
