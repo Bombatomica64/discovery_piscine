@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang ="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Tab</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<style>
+		html, body {
+		  height: 100%;
+		  width: 100%;
+		  margin: 0;
+		  padding: 0;
+		  display: flex;
+		  flex-direction: column;
+		  justify-content: center;
+		  align-items: center;
+		}
+
+		.table {
+			display: flex;
+			flex-direction: column;
+			object-fit: fill;
+			justify-content: center;
+			align-items: stretch;
+			width: 100%;
+			height: 100%;
+			border-collapse: collapse;
+			border: 1px solid black;
+			column-rule-color: red;
+			text-align: left;
+		}
+		table th {
+			background-color: aquamarine;
+			border: 1px solid black;
+			padding: 10px;
+			object-fit: fill;
+			flex-grow: 1;
+		}
+		table td {
+			border: 1px solid black;
+			background-color: violet;
+			object-fit: fill;
+			padding: 10px;
+			flex-grow: 1;
+		}
+	</style>
+	<body>
+		<div class="table">
+			<table>
+				<tr>
+					<th>Ciao</th>
+					<td>Salut</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

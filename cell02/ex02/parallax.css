@@ -1,0 +1,25 @@
+.parallax {
+	background-image: url("parallax.jpg");
+	min-height: 1000px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.black_space {
+	background-color: black;
+	min-height: 700px;
+	width: auto;
+	color: teal;
+	text-align: center;
+	font-size: 200px;
+}
+.second_img {
+	background-image: url("parallax2.gif");
+	min-height: 1000px;
+	width: stretch;
+	background-attachment: fixed;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

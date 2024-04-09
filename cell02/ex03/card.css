@@ -1,0 +1,44 @@
+body {
+	background-image: url("sfondo.jpg");
+	margin: 0;
+	padding: 0;
+}
+.table {
+	display: flex;
+	flex-grow: 1;
+	width: 100%;
+	text-align: center;
+	height: 100%;
+}
+
+table {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: inline-block;
+	width: auto;
+	height: auto;
+	text-align: center;
+	table-layout: fixed;
+	border-collapse: collapse;
+	justify-content: center;
+	justify-self: center;
+}
+
+table th {
+	font-size: medium;
+}
+
+table td {
+	width: 1%;
+	font-size: medium;
+	color: gainsboro;
+	image-rendering: crisp-edges;
+	display: inline;
+	justify-content: center;
+}
+footer {
+	position:relative;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: violet;
+}

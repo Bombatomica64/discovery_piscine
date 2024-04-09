@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang ="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>responsive af</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<style>
+		html, body {
+			height: 100%;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.table {
+			display: flex;
+			flex-grow: 1;
+			width: 100%;
+			height: 100%;
+		}
+
+		table {
+			flex-grow: 1;
+			width: 100%;
+			height: 100%;
+			border-collapse: separate;
+			border: 1px solid black;
+			column-rule-color: red;
+			text-align: left;
+		}
+
+		table th {
+			background-color: aquamarine;
+			border: 1px solid black;
+		}
+
+		table td {
+			border: 1px solid black;
+			background-color: violet;
+		}
+	</style>
+	<body>
+		<div class="table">
+			<table>
+				<tr>
+					<th>Ciao</th>
+					<td>Salut</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
