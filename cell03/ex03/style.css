@@ -1,0 +1,23 @@
+body , html {
+	background-color:rgba(30, 143, 255, 0.651);
+}
+
+.ft_list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+todo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: teal;
+}
+.add {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: teal;
+	
+}

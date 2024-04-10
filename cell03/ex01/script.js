@@ -1,14 +1,16 @@
 function pillola(width, height, color)
 {
+	
 	let element = document.querySelector('baloon');
 	element.style.height = (height + 10) + 'px';
 	element.style.width = (width + 10) + 'px';
-
+	
 	if (height + 10 > 420 || width + 10 > 420)
 	{
 		pillola(190, 190, color);
 		return ;
 	}
+	
 	if (color == 'rgb(255, 0, 0)')
 		element.style.backgroundColor = 'green';
 	else if (color == 'rgb(0, 128, 0)')
