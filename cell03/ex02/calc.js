@@ -12,8 +12,8 @@ function calculate(first, operation, second)
 		return;
 	}
 	let result = 0;
-	let fr = parseInt(first);
-	let sc = parseInt(second);
+	let fr = parseFloat(first);
+	let sc = parseFloat(second);
 	switch (operation) {
 		case '+':
 			result = fr + sc;
