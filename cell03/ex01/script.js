@@ -23,7 +23,6 @@ function smolpp(width, height, color)
 	{
 		return ;
 	}
-	console.log('wewewe');
 	let element = document.querySelector('baloon');
 	element.style.height = (height - 5) + 'px';
 	element.style.width = (width - 5) + 'px';
