@@ -4,8 +4,6 @@ function calculate () {
 	let second = parseFloat($("#second").val());
 	let operation = $("#operator").val();
 
-	console.log(first);
-	console.log(second);
 	if (first === '' || second === '')
 	{
 		alert('Please enter both numbers.');
