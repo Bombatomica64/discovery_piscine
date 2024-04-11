@@ -1,5 +1,7 @@
-body , html {
+body {
 	background-color:rgba(30, 143, 255, 0.651);
+	justify-content: center;
+	align-items: center;
 }
 
 .ft_list {
@@ -7,15 +9,20 @@ body , html {
 	flex-direction: column;
 	background-color:rgba(30, 143, 255, 0.651);
 	justify-content: center;
-
+	align-items: center;
 }
 
-todo {
-	display: flex;
-	flex-direction: row;
+.todo {
 	align-items: center;
-	color: teal;
-	background-color:rgba(30, 143, 255, 0.651);
+	justify-content: center;
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font: large;
+	border: 1px solid blue;
+	padding: 10px;
+	border-collapse: separate;
+	background-color:rgba(250, 128, 114, 0.76);
 
 }
 .add {
@@ -25,13 +32,6 @@ todo {
 	justify-content: center;
 	color: teal;
 	background-color:rgba(30, 143, 255, 0.651);
-}
-
-p {
-	text-align: center;
-	color: white;
-	font-family: Arial, Helvetica, sans-serif;
-	font: large;
 }
 
 #add {
