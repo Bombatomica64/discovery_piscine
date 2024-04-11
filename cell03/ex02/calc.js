@@ -27,7 +27,7 @@ function calculate(first, operation, second)
 		case '/':
 			if (sc === 0)
 			{
-				alert('You cannot divide by 0.');
+				alert('It\'s over 9000!');
 				return;
 			}
 			result = fr / sc;
@@ -35,7 +35,7 @@ function calculate(first, operation, second)
 		case '%':
 			if (sc === 0)
 			{
-				alert('You cannot divide by 0.');
+				alert('It\'s over 9000!');
 				return;
 			}
 			result = fr % sc;
@@ -47,3 +47,9 @@ function calculate(first, operation, second)
 	alert('The result is in the console log');
 	console.log(result);
 }
+
+function alertEvery30Seconds() {
+	setInterval(function() {
+	  alert("Please use me...");
+	}, 30000);
+  }

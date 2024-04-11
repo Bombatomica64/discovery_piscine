@@ -5,9 +5,9 @@ body , html {
 .ft_list {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	background-color:rgba(30, 143, 255, 0.651);
 	justify-content: center;
+
 }
 
 todo {
@@ -25,4 +25,16 @@ todo {
 	justify-content: center;
 	color: teal;
 	background-color:rgba(30, 143, 255, 0.651);
+}
+
+p {
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font: large;
+}
+
+#add {
+	font-size: 25px;
+	padding: 10px 20px;
 }
