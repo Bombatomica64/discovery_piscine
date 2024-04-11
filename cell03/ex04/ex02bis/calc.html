@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+		<script src="calc.js"></script>
+		<link rel="stylesheet" type="text/css" href="calc.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<input type="text" id="first">
+		<select id="operator">
+			<option value="+">+</option>
+			<option value="-">-</option>
+			<option value="*">*</option>
+			<option value="/">/</option>
+			<option value="%">%</option>
+		</select>
+		<input type="text" id="second">
+		<button onclick="calculate()">
+			Try Me!
+		</button>
+		<div alertEvery30Seconds();></div>
+		<script>
+			function alertEvery30Seconds() {
+				setInterval(function() {
+					alert("Hello");
+				}, 30000);
+			}
+		</script>
+	</body>
+</html>

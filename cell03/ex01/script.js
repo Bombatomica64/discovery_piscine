@@ -21,7 +21,7 @@ function pillola(width, height, color)
 
 function smolpp(width, height, color)
 {
-	if (height == 200)
+	if (height == 200 || width == 200)
 	{
 		return ;
 	}

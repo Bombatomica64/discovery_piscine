@@ -32,7 +32,7 @@ function remove(textContent) {
 // Save the todo list to a cookie
 function saveList() {
   let list = document.getElementById("ft_list");
-  document.cookie = "todoList=" + encodeURIComponent(list.innerHTML) + "; max-age=31536000"; // 1 year
+  document.cookie = "todoList=" + encodeURIComponent(list.innerHTML) + "; max-age=31536000";
 }
 
 // Load the todo list from a cookie
@@ -44,11 +44,3 @@ function loadList() {
     .split('=')[1];
   list.innerHTML = decodeURIComponent(cookieValue);
 }
-
-// Call loadList when the page is loaded
-
-
-// Call saveList when a todo item is added or removed
-// For example:
-// newTodo.onclick = saveList;
-// removeButton.onclick = saveList;

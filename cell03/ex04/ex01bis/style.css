@@ -1,0 +1,17 @@
+body {
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	height: 100vh;
+	margin: 0;
+}
+
+baloon {
+	background-color: red;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border: none;
+	align-self: center;
+	justify-self: center;
+}

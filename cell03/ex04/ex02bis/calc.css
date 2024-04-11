@@ -1,0 +1,13 @@
+body {
+	background-color: rosybrown;
+	background-image: url('nagatororunfull.gif');
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+input, select , button {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+}
