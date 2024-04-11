@@ -9,7 +9,7 @@ function add() {
 
 	let newTodo = document.createElement("todo");
 
-	newTodo.innerHTML = '<p onclick="remove('+ todo + ')">'+ todo + '</p>';
+	newTodo.innerHTML = '<p onclick="remove(this.textContent)">'+ todo + '</p>';
 
 	list.appendChild(newTodo);
 }

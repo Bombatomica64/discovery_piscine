@@ -6,6 +6,8 @@ body , html {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color:rgba(30, 143, 255, 0.651);
+	justify-content: center;
 }
 
 todo {
@@ -13,11 +15,14 @@ todo {
 	flex-direction: row;
 	align-items: center;
 	color: teal;
+	background-color:rgba(30, 143, 255, 0.651);
+
 }
 .add {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	justify-content: center;
 	color: teal;
-	
+	background-color:rgba(30, 143, 255, 0.651);
 }
