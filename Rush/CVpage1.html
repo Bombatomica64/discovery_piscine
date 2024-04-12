@@ -17,10 +17,21 @@
 	<script src="https://cdn.jsdelivr.net/gh/mattboldt/typed.js@2.0.11/lib/typed.min.js"></script>
 </head>
 <body>
-	<div class="container">
-		<h1>Welcome to my website!</h1>
-		<p>This is a basic HTML file with Bootstrap and jQuery.</p>
-	</div>
+	<nav class="navbar navbar-inverse navbar-dark bg-dark">
+		<div class="container-fluid">
+		  <div class="navbar-header">
+			<a class="navbar-brand" href="index.html">RushCV</a>
+		  </div>
+		  <ul>
+		  <a href="CVpage1.html"><button style="text-shadow: 2px 2px 2px gray;" class="btn btn-outline-light navbar-btn bg-warning">Easy CV 1</button></a>
+		  <a href="CVpage2.html"><button style="text-shadow: 2px 2px 2px gray;" class="btn btn-outline-light navbar-btn bg-danger">Easy CV 2</button></a>
+		  </ul>
+		  <form class="d-flex" role="search" onsubmit="event.preventDefault(); search();">
+			  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+			  <button class="btn btn-outline-success" type="submit">Search</button>
+		  </form>
+		</div>
+	  </nav>
 	<section class="home" id="home">
 		<div class="image-container">
 			<img src="images/kuma.jpg" alt="My Picture" class="img-fluid">
@@ -33,7 +44,7 @@
 	<header id="header" class="d-flex flex-column justify-content-center">
 	<nav id="navbar" class="navbar nav-menu">
 		<ul>
-			<li><a href="#home" class="nav-link scrollto active"><img src="images/home.png" style="width: 100%;"> <span></span></a></li>
+			<li><a href="#home" class="nav-link scrollto"><img src="images/home.png" style="width: 100%;"> <span></span></a></li>
 			<li><a href="#about" class="nav-link scrollto"><img src="images/about.png" style="width: 100%;"> <span></span></a></li>
 			<li><a href="#resume" class="nav-link scrollto"><img src="images/curriculum.png" style="width: 100%;"></i> <span></span></a></li>
 			<li><a href="#contact" class="nav-link scrollto"><img src="images/contact.png" style="width: 100%;"></i> <span></span></a></li>
