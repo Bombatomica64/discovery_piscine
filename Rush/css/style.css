@@ -1156,7 +1156,7 @@ section {
   color: #45505b;
   font-size: 14px;
   text-align: center;
-  padding: 30px 0;
+  padding: 10px 0;
 }
 
 #footer h3 {
@@ -1206,6 +1206,15 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+.footer img {
+	width: 50px; /* Change to the width you want */
+}
+
+.footer-icon {
+	margin: 0 5px; /* Adjust the second value to reduce horizontal spacing */
+	padding: 0; /* Adjust this value if your icons have padding */
 }
 
 /*--------------------------------------------------------------
