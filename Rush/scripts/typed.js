@@ -4,7 +4,7 @@ $('.dropdown-menu a').on('click', function(e) {
 });
 
 var typed = new Typed('#animated-text', {
-    strings: ["This is the animated text."],
+    strings: ["Them an you need"],
     typeSpeed: 65,
     backSpeed: 50,
     loop: true

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+
+    <!--bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<!-- Bootstrap JS -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="assets/vendor/typed.js/typed.umd.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/mattboldt/typed.js@2.0.11/lib/typed.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-dark bg-dark">
+		<div class="container-fluid">
+		  <div class="navbar-header">
+			<a class="navbar-brand" href="mainPage.html">RushCV</a>
+		  </div>
+		  <ul>
+		  <a href="CVpage1.html"><button style="text-shadow: 2px 2px 2px gray;" class="btn btn-outline-light navbar-btn bg-warning">Easy CV 1</button></a>
+		  <a href="CVpage2.html"><button style="text-shadow: 2px 2px 2px gray;" class="btn btn-outline-light navbar-btn bg-danger">Easy CV 2</button></a>
+		  </ul>
+		  <form class="d-flex" role="search" onsubmit="event.preventDefault(); search();">
+			  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+			  <button class="btn btn-outline-success" type="submit">Search</button>
+		  </form>
+		</div>
+	  </nav>
+	<section class="home" id="home">
+		<div class="image-container">
+			<img src="images/Tor.jpg" alt="My Picture" class="img-fluid">
+			<div class="text-over-image">
+				<p id="animated-text" style="color: red;"></p>
+				<script src="scripts/typed.js"></script>
+			</div>
+		</div>
+	</section>
+	<header id="header" class="d-flex flex-column justify-content-center">
+	<nav id="navbar" class="navbar nav-menu">
+		<ul>
+			<li><a href="#home" class="nav-link scrollto"><i class="bi-windows" style="width: 100%;"><span>HOME</span></i></a></li>
+			<li><a href="#about" class="nav-link scrollto"><i class="bi-question-square" style="width: 100%;"><span>ABOUT</span></i></a></li>
+			<li><a href="#resume" class="nav-link scrollto"><i class="bi-card-checklist" style="width: 100%;"><span>RESUME</span></i></a></li>
+			<li><a href="#contact" class="nav-link scrollto"><i class="bi-broadcast" style="width: 100%;"></i><span>CONTACT</span></i></a></li>
+		</ul>
+	  </nav>
+	</header>
+		<img style="margin-left:auto; margin-right: auto; display: block;" src="images/cat-hacker.gif" class="img-fluid" alt="test">
+		<section class="about" id="about">
+			<div class="container">
+				<div class="section-title">
+					<h2>About</h2>
+					<p>Learn more about me</p>
+				</div>
+				<div class="row">
+					<div class="col-lg-4" data-aos="fade-right">
+						<img src="images/i2p_logo.png" class="img-fluid" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="resume" id="resume">
+			<div class="container" data-aos="fade-up">
+				<div class="section-title">
+					<h2>My resume</h2>
+					<p>Check my resume</p>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<h3 class="resume-title">ADS BY RUSHCV</h3>
+						<div class="resume-item pb-0">
+							<h4>42</h4>
+							<p><em>Benvenuto</em></p>
+                            <p>Tutti i diritti sono riservati.</p>
+							<ul>
+								<li>42 Firenze</li>
+								<li>+39 055 889 3161</li>
+								<li>contact@42firenze.it</li>
+							</ul>
+						</div>
+						<h3 class="resume-title">PREAMBLE</h3>
+						<div class="resume-item">
+							<h4>LINUX IS THE WAY:</h4> 
+							<p><em>GNU (GNU's Not Unix)</em></p>
+							<p><em>Kernel Panic:</em></p>
+							<ul>
+								<li>Open Source</li>
+								<li>Package Manager</li>
+								<li>LAMP Stack</li>
+							</ul>
+						</div>
+						<h3 class="resume-title">EXAMPLE</h3>
+						<div class="resume-item">
+						<h4>example@example.com</h4>
+						<p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</em></p>
+						<p><em>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</em></p>
+						<ul>
+							<li>foo</li>
+							<li>bar</li>
+							<li>malloc 😄</li>
+						</ul>
+						</div>
+					</div>
+				</div>
+		</section>
+		</body>
+		<footer class="footer" id="contact">
+			<div class="d-flex justify-content-around">
+				<div class="p-2 d-flex align-items-center justify-content-center">
+					<a href="https://haveibeenpwned.com/" style="cursor:not-allowed">
+						<img src="images/Instagram_icon.png" alt="instagram" class="img-fluid">
+					</a>
+				</div>
+				<div class="p-2 d-flex align-items-center justify-content-center">
+					<a href="https://haveibeenpwned.com/" style="cursor:not-allowed">
+						<img src="images/xlogo.png" alt="twitter" class="img-fluid">
+					</a>
+				</div>
+				<div class="p-2 d-flex align-items-center justify-content-center">
+					<a href="https://haveibeenpwned.com/" style="cursor:not-allowed">
+						<img src="images/reddit.webp" alt="reddit" class="img-fluid">
+					</a>
+				</div>
+				<div class="p-2 d-flex align-items-center justify-content-center">
+					<a href="https://haveibeenpwned.com/" style="cursor:not-allowed">
+						<img src="images/github.png" alt="github" class="img-fluid">
+					</a>
+				</div>
+			</div>
+		</footer>
+		</html>
+		
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Zzjw5f+ua7Kw1TIq0v8FqFjcJ6pajs/rfdfs3SO+kD4Ck5BdPtF+to8xM6B5z6W5" crossorigin="anonymous"></script>
+<!-- <a target="_blank" href="https://icons8.com/icon/wgmUBjRbFLsI/google-home">Home page di Google</a> icona di <a target="_blank" href="https://icons8.com">Icons8</a> -->

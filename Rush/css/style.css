@@ -525,7 +525,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid #bb05acaf;
   position: relative;
 }
 
@@ -569,7 +569,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #0563bb;
+  border: 2px solid #bb05ac;
 }
 
 /*--------------------------------------------------------------
@@ -592,7 +592,7 @@ section {
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
-  padding: 10px 15px;
+  padding: 10px 10px;
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
@@ -1232,7 +1232,7 @@ MINE
 
 .text-over-image {
 	position: absolute;
-	top: 50%;
+	top: 80%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: rgb(201, 9, 9); /* Change the text color to make it visible on the image */
