@@ -1208,6 +1208,10 @@ section {
   font-size: 13px;
 }
 
+/*--------------------------------------------------------------
+MINE
+*/
+
 .text-over-image {
   position: relative;
   display: inline-block;
@@ -1215,4 +1219,12 @@ section {
 }
 .typed-cursor {
 	display: none;
+}
+
+.text-over-image {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: rgb(201, 9, 9); /* Change the text color to make it visible on the image */
 }
